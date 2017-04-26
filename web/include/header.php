@@ -2,7 +2,7 @@
 if($_SERVER['SERVER_NAME']=="localhost"){
 	$baseUrl = "http://localhost/smilesandsmallz.com/"; 
 } else {
-	$baseUrl = "http://www.smilesandsmallz.com/"; 
+	$baseUrl = "/"; 
 }	
 $section = $_GET['section'];
 if(!$section){
