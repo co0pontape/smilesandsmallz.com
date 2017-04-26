@@ -1,8 +1,8 @@
 <?php $page = "gallery"; ?>
 <?php include("include/header.php"); ?>
 
-<link rel="stylesheet" type="text/css" href="http://www.smilesandsmallz.com/gallery/lib/jquery.ad-gallery.css">
-<script type="text/javascript" src="http://www.smilesandsmallz.com/gallery/lib/jquery.ad-gallery.js"></script>
+<link rel="stylesheet" type="text/css" href="gallery/lib/jquery.ad-gallery.css">
+<script type="text/javascript" src="gallery/lib/jquery.ad-gallery.js"></script>
 <script type="text/javascript">
 	$(function() {
 		var galleries = $('.ad-gallery').adGallery();    
@@ -92,11 +92,11 @@
 						<?php
 							$imgCount = 53;
 							for($i=1;$i<=$imgCount;$i++){
-								echo "<li>";
-								echo "<a href='http://www.smilesandsmallz.com/gallery/images/".$i.".jpg'>";
-								echo "<img src='http://www.smilesandsmallz.com/gallery/images/thumbs/t".$i.".jpg' class='image' title='' longdesc='http://www.smilesandsmallz.com/gallery/images/fullsize/".$i.".jpg' alt='Click image to load full size version.' />";
-								echo "</a>";
-								echo "</li>";
+								echo '<li>';
+								echo '<a href="'.$baseUrl.'images/'.$i.'.jpg">';
+								echo '<img src="'.$baseUrl.'images/thumbs/t'.$i.'.jpg" class="image" title=" longdesc="'.$baseUrl.'gallery/images/fullsize/'.$i.'.jpg" alt="Click image to load full size version." />';
+								echo '</a>';
+								echo '</li>';
 							}
 						?>
 					</ul>

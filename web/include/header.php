@@ -115,12 +115,14 @@ if($isAdmin == "true" && $showadmin != "true") {
 							<div <?php if($page == 'wedding')echo 'class="selected"'; ?>>WEDDING</div>
 						</a>	
 					</div>					
-				<?php } else { ?>				
+				<?php } else { ?>		
+					<?php /*		
 					<div class="nav">
 						<a href="guestbook.php?section=<?php echo $section; ?>&sw=<?php echo $showwedding; ?>">
 							<div <?php if($page == 'guestbook')echo 'class="selected"'; ?>>GUEST BOOK</div>
 						</a>	
-					</div>		
+					</div>	
+					 */ ?>	
 					<div class="nav">
 						<a href="cruise.php?section=<?php echo $section; ?>&sw=<?php echo $showwedding; ?>">
 							<div <?php if($page == 'cruise')echo 'class="selected"'; ?>>CRUISE WEDDING</div>

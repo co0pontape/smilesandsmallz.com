@@ -83,8 +83,8 @@
 			}
 			for ($i=$start; $i<=$end; $i++) {
 				echo '<div class="cruise_img">';
-				echo '<a href="http://www.smilesandsmallz.com/cruise/'.$i.'.jpg" rel="prettyPhoto[pp_gal]">';
-				echo '<img src="http://www.smilesandsmallz.com/cruise/'.$i.'.jpg" width="150" height="150" />';
+				echo '<a href="'.$baseUrl.'cruise/'.$i.'.jpg" rel="prettyPhoto[pp_gal]">';
+				echo '<img src="'.$baseUrl.'cruise/'.$i.'.jpg" width="150" height="150" />';
 				echo '</a>';
 				echo '</div>';
 			}

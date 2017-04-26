@@ -74,8 +74,8 @@
 			}
 			for ($i=$start; $i<=$end; $i++) {
 				echo '<div class="stoutnyc_img">';
-				echo '<a href="http://www.smilesandsmallz.com/stoutnyc/'.$i.'.jpg" rel="prettyPhoto[pp_gal]">';
-				echo '<img src="http://www.smilesandsmallz.com/stoutnyc/'.$i.'.jpg" width="150" height="150" />';
+				echo '<a href="'.$baseUrl.'stoutnyc/'.$i.'.jpg" rel="prettyPhoto[pp_gal]">';
+				echo '<img src="'.$baseUrl.'stoutnyc/'.$i.'.jpg" width="150" height="150" />';
 				echo '</a>';
 				echo '</div>';
 			}
