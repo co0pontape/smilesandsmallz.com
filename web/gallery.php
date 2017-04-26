@@ -93,8 +93,8 @@
 							$imgCount = 53;
 							for($i=1;$i<=$imgCount;$i++){
 								echo '<li>';
-								echo '<a href="'.$baseUrl.'images/'.$i.'.jpg">';
-								echo '<img src="'.$baseUrl.'images/thumbs/t'.$i.'.jpg" class="image" title=" longdesc="'.$baseUrl.'gallery/images/fullsize/'.$i.'.jpg" alt="Click image to load full size version." />';
+								echo '<a href="'.$baseUrl.'gallery/images/'.$i.'.jpg">';
+								echo '<img src="'.$baseUrl.'gallery/images/thumbs/t'.$i.'.jpg" class="image" title=" longdesc="'.$baseUrl.'gallery/images/fullsize/'.$i.'.jpg" alt="Click image to load full size version." />';
 								echo '</a>';
 								echo '</li>';
 							}
