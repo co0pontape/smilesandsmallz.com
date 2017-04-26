@@ -30,7 +30,7 @@ input.short {
 }
 .submit_loader {
 	display: none;
-	background: transparent url(images/spinner.gif) center center no-repeat;
+	background: transparent url('/images/spinner.gif') center center no-repeat;
 	width: 16px;
 	height: 16px;
 }
@@ -72,17 +72,17 @@ input.short {
 	padding-top: 30px;
 }
 #left div#left_smiles {
-	background: #ACADB8 url(images/smiles.png) center center no-repeat;
+	background: #ACADB8 url('/images/smiles.png') center center no-repeat;
 	color: #fff;
 }
 #left div#left_smallz {
-	background: #F8EF85 url(images/smallz.png) center center no-repeat;
+	background: #F8EF85 url('/images/smallz.png') center center no-repeat;
 }
 #left div#left_smiles.selected, #left div#left_smiles:hover {
-	background-image: url(images/smiles_over.png);
+	background-image: url('/images/smiles_over.png');
 }
 #left div#left_smallz.selected, #left div#left_smallz:hover {
-	background-image: url(images/smallz_over.png);
+	background-image: url('/images/smallz_over.png');
 }
 #center {
 	width: 93%;
@@ -214,7 +214,7 @@ input.short {
 /* ------------------- SUB PAGES PAGE -------------------------- */
 #content.home {
 	height: 675px;
-	background: #1D5673 url(images/home.jpg) center center no-repeat;		
+	background: #1D5673 url('/images/home.jpg') center center no-repeat;		
 }
 #wedding_countdown {
 	text-align: center;
