@@ -127,12 +127,14 @@ if($isAdmin == "true" && $showadmin != "true") {
 						<a href="cruise.php?section=<?php echo $section; ?>&sw=<?php echo $showwedding; ?>">
 							<div <?php if($page == 'cruise')echo 'class="selected"'; ?>>CRUISE WEDDING</div>
 						</a>	
-					</div>							
+					</div>			
+					<?php /*					
 					<div class="nav">
 						<a href="stoutnyc.php?section=<?php echo $section; ?>&sw=<?php echo $showwedding; ?>&pg=1">
 							<div <?php if($page == 'stoutnyc')echo 'class="selected"'; ?>>STOUT NYC</div>
 						</a>	
-					</div>																				
+					</div>				
+					 */	?>															
 					<div class="nav">
 						<a href="gallery.php?section=<?php echo $section; ?>&sw=<?php echo $showwedding; ?>">
 							<div <?php if($page == 'gallery')echo 'class="selected"'; ?>>ENGAGEMENT</div>
